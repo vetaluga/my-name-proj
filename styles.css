@@ -4,12 +4,9 @@ body {
 }
 
 header {
-    /* border: 2px solid red; */
-    /* background: lightgreen; */
 }
 
 .container {
-    /* border: 2px solid green; */
     width: 1170px;
     margin: 0 auto;
 }
@@ -98,50 +95,22 @@ h2 {
 
 .q {
     background-image: url(images/1.jpg);
-    /* height: 100px; */
     background-color: #ffff;
 }
 
 .w {
     background-image: url(images/2.jpg);
-    /* height: 100px; */
     background-color: #ffff;
 }
 
 .e {
     background-image: url(images/3.jpg);
-    /* height: 100px; */
     background-color: #ffff;
 }
 
 main {
     background-color: #FFF7E9;
 }
-
-/* .z {
-    position: relative;
-    top: 270px;
-    color: #673B19;
-} */
-
-/* .c {
-    left: 120px;
-}
-
-.v {
-    left: 110px;
-}
-
-.b {
-    left: 140px;
-} */
-
-/* .po {
-    position: relative;
-    top: 270px;
-    text-align: center;
-    color: #774E2E;
-} */
 
 .bg-pug {
     background-image: url(./images/преимущества.png);
@@ -157,16 +126,12 @@ main {
 }
 
 .cards-block {
-    /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
-    /* background-color: #ffff; */
     position: relative;
 }
 
 .card {
-    /* height: 465px; */
-    /* background: gray; */
     box-sizing: border-box;
     width: 370px;
     background-repeat: no-repeat;
