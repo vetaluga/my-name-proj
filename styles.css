@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    /* border: 2px solid red; */
+    /* background: lightgreen; */
+}
+
+.container {
+    /* border: 2px solid green; */
+    width: 1170px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #774E2E;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+/*  */
+
+.menu a {
+    padding-left: 30px;
+}
+
+.menu .logo {
+    padding-left: 0px;
+}
+
+/* Второй спобой добавить отступы только ссылкам не касаясь логотипа */
+/* menu .menu-item{padding-left: 30px;} */
+
+
+.welcome {
+    /* border: 5px solid rgba(0, 128, 0, 0.303); */
+    width: 575px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 110px;
+}
+
+.yummy {
+    color: #F37F34;
+}
+
+.pug {
+    color: #774E2E;
+}
+
+p {
+    color: #774E2E;
+}
+
+.kno {
+    padding: 23px 25px;
+    background-color: #774E2E;
+    color: #ffff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    width: 345px;
+}
+
+
+
+.shu {
+    color: #774E2E;
+    padding-left: 35px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.m {
+    display: inline;
+}
+
+.mon {
+    color: #F37F34;
+}
+
+.q {
+    background-image: url(images/1.jpg);
+    /* height: 100px; */
+    background-color: #ffff;
+}
+
+.w {
+    background-image: url(images/2.jpg);
+    /* height: 100px; */
+    background-color: #ffff;
+}
+
+.e {
+    background-image: url(images/3.jpg);
+    /* height: 100px; */
+    background-color: #ffff;
+}
+
+main {
+    background-color: #FFF7E9;
+}
+
+/* .z {
+    position: relative;
+    top: 270px;
+    color: #673B19;
+} */
+
+/* .c {
+    left: 120px;
+}
+
+.v {
+    left: 110px;
+}
+
+.b {
+    left: 140px;
+} */
+
+/* .po {
+    position: relative;
+    top: 270px;
+    text-align: center;
+    color: #774E2E;
+} */
+
+.bg-pug {
+    background-image: url(./images/преимущества.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-top: 160px;
+}
+
+.bg-color {
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #FFF7E9;
+}
+
+.cards-block {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #ffff; */
+    position: relative;
+}
+
+.card {
+    /* height: 465px; */
+    /* background: gray; */
+    box-sizing: border-box;
+    width: 370px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-top: 240px;
+    text-align: center;
+}
